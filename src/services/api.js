@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://todobackend-grw2.onrender.com';
 
 export const register = async (userData) => {
     return axios.post(`${API_URL}/api/auth/signup`, userData);

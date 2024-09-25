@@ -141,3 +141,7 @@ button:hover {
 .errormsg {
     color: red;
 }
+
+.loader {
+    width: 100px;
+}
