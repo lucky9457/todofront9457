@@ -1,0 +1,43 @@
+/* Dashboard.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.logout-button {
+    background-color: #dc3545;
+}
+
+/* Profile.css */
+.profile-page {
+    padding: 20px;
+}
+
+.profile-page input {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+.profile-page button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}

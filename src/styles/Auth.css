@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.App {
+    text-align: center;
+    padding: 20px;
+}
+
+.auth-container,
+.create-todo,
+.todo-list {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 700px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo-item {
+    background-color: #fafafa;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+
+    align-items: center;
+    width: 600px;
+}
+
+td {
+    text-align: center;
+
+    align-self: center;
+}
+
+th {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.status {
+
+    align-items: center;
+    text-align: center;
+    width: 33%;
+}
+
+.taskd {
+    width: 33%;
+    text-align: left;
+}
+
+.taskaction {
+    width: 33%;
+    justify-self: flex-end;
+    text-align: right;
+
+}
+
+.taskheadWidth {
+    width: 33%;
+}
+
+.actionhead {
+    text-align: right;
+}
+
+.statushead {
+    text-align: center;
+}
+
+.taskhead {
+    text-align: left;
+}
+
+.editbtn {
+    margin-right: 5px;
+}
+
+@media (max-width:700px) {
+    .todo-list {
+        width: 90%;
+    }
+
+    .create-todo {
+        width: 90%;
+    }
+
+    .taskaction {
+        width: 40%;
+
+    }
+
+    .todo-item {
+        width: 80vw;
+    }
+
+    .editbtn {
+        width: 40%;
+        padding: 5px;
+    }
+
+    .delbtn {
+        width: 50%;
+        padding: 5px;
+    }
+
+    .taskaction {}
+}
+
+.errormsg {
+    color: red;
+}
